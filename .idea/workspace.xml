@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cfc1970-20a4-44c1-95b8-27263c35969a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ProyectGota.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/route/config.route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/route/protectedRoute.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/route/routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/extra.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/sesion.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Login/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/UseRouting.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/UseRouting.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +43,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608482140886</updated>
-      <workItem from="1608482144686" duration="5906000" />
+      <workItem from="1608482144686" duration="7662000" />
     </task>
     <servers />
   </component>
