@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom'
 import '../style.scss'
 import '../../assets/scss/reset.scss'
 import logo from '../../assets/images/logo.png'
+import profile from '../../assets/images/user/profile.png'
 
 const Login = () => {
     const [DataForm, setDataForm] = useState({userName: '', password: ''});
@@ -32,7 +33,26 @@ const Login = () => {
             </div>
             <div className="uiUser-container">
             </div>
-            <div className="uiUser-container"></div>
+            <div className="uiUser-container">
+                <div className="uiUser-form">
+                    <form onSubmit={handleSubmit} onChange={handleChange}>
+                        <div className="uiUser-profile">
+                            <div className="uiUser-imageprofile">
+                                <img src={profile} alt="User"/>
+                            </div>
+                        </div>
+                        <div>
+                            <input type="text" placeholder="Usuario" name='userName'/>
+                            <input type="password" placeholder="Contraseña" name='password'/>
+                        </div>
+                        <button>LOG IN</button>
+                        <br/>
+                        <Link to="/recovery" replace>Recuperar contraseña</Link>
+                        <br/>
+                        <Link to="/register" replace>Registrar</Link>
+                    </form>
+                </div>                
+            </div>
         </div>
         // <div className="main">
         //     <div className="container">

@@ -13,24 +13,17 @@
     display: flex;
     overflow: hidden;
     align-items: center;
-    background-color: rgb(251, 251, 251);
-    animation: gotaanimated-rdl 1s 1.5s forwards;
+    background-color: rgb(245, 245, 245);
+    animation: gotaanimated-rdl 0.6s 1.5s forwards;
     div{
         position: relative;
         max-width: 200px;
         margin: 0 auto;
-        animation: gotaanimated-ml 1s 1.5s forwards;
+        animation: gotaanimated-ml 0.6s 1.5s forwards;
         img{
             height: 150px;
-            animation: gotaanimated-size 1s 1.5s forwards;
+            animation: gotaanimated-size 0.6s 1.5s forwards;
         }
-        // p{
-        //     margin: 10px 0px 0px 0px;
-        //     text-align: center;
-        //     text-transform: uppercase;
-        //     font-weight: bold;
-        //     animation: gotaanimated-hidde 0.5s 0.5s forwards;
-        // }
     }
 }
 
@@ -44,8 +37,25 @@
 }
 .uiUser-container:nth-child(3){
     width: 50vw;
+    display: flex;
+    align-items: center;
 }
 
+.uiUser-form{
+    margin: 10vh 10vw 0 10vw;
+    animation: gotaanimated-form 0.8s 1.5s forwards;
+}
+
+.uiUser-profile{
+    width: 100%;
+}
+
+.uiUser-imageprofile{
+    margin: 0 auto;
+    max-width: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+}
 
 @keyframes gotaanimated-rdl{
     from{
@@ -80,74 +90,19 @@
         left: 0;
     }
     to{
-        top: calc(10px - 5vh);
+        top: -2.5vh;
         left: -5vw;
         max-width: 50vw;
     }
 }
 
-// .main {
-//     margin: auto;
-// }
-
-// .container {
-//     width: 100%;
-//     height: auto;
-//     margin: auto;
-//     padding: 0 30px;
-//     max-width: 320px;
-//     div {
-//         margin: 10px 0;
-//     }
-// }
-
-// .title {
-//     text-align: center;
-// }
-
-// .text {
-//     margin: auto !important;
-// }
-
-// .form {
-//     border: 1px solid white;
-//     text-align: center;
-//     padding: 25px 0 25px 0;
-//     border-radius: 5px;
-//     background: rgb(41, 40, 80);
-
-//     input {
-//         border: none;
-//         border-radius: 5px;
-//         height: 25px;
-//         width: 80%;
-//         margin-top: 12px;
-//         background: rgb(151, 134, 190);
-//         text-emphasis-color: #fff;
-//         padding: 4px;
-//     }
-
-//     button {
-//         margin-top: 20px;
-//         margin-bottom: 20px;
-//         border: none;
-//         width: 50%;
-//         border-radius: 50px;
-//         height: 25px;
-//         cursor: pointer;
-//         padding: 4px;
-//         &:hover {
-//             background: rgb(151, 134, 190);
-//             color: white;
-//         }
-//     }
-//     a {
-//         font-family: Vegur, 'PT Sans', Verdana, sans-serif;
-//         text-decoration: none;
-//         font-size: .8em;
-//         color: #fff;
-//         &:hover {
-//             color: rgb(151, 134, 190);
-//         }
-//     }
-// }
+@keyframes gotaanimated-form{
+    from{
+        margin-top: 10vh;
+        opacity: 0;
+    }
+    to{
+        margin-top: 0;
+        opacity: 1;
+    }
+}
